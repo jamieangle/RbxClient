@@ -1,2 +1,2 @@
 # RbxClient
-A hack client for Roblox
+A hack client for Roblox.
