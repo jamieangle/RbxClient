@@ -1,9 +1,9 @@
 #pragma once
+
 #ifdef DLLDIR_EX
 #define DLLDIR  __declspec(dllexport)
 #else
 #define DLLDIR  __declspec(dllimport)
-#endif
 
 #include <Windows.h>
 
@@ -26,3 +26,4 @@ public:
         MessageBox(nullptr, "Static Method", "Ran", NULL);
     }
 };
+#endif
